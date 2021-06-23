@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">ComposePracticeBottomNavigation</string>
+    <string name="app_name_top_bar">Indialone App</string>
+    
+    <string name="and_there_were_none">And Then There Were None</string>
+    <string name="big_sleep">The Big Sleep</string>
+    <string name="gone_girl">Gone Girl</string>
+    <string name="the_postman_always_rings_twice">The Postman Always Rings Twice</string>
+    <string name="in_cold_blood">In Cold Blood</string>
+    <string name="woman_in_white">Woman in White</string>
+    <string name="anotomy_of_murder">Anatomy of a Murder</string>
+    <string name="tinker_tailor_soldier_spy">Tinker, Tailor, Soldier, Spy</string>
+    <string name="the_da_vinci_code">The Da Vinci Code</string>
+    <string name="the_girl_with_dragon_tattoo">The Girl with the Dragon Tattoo</string>
+    <string name="the_daughter_of_time">The Daughter of Time</string>
+    <string name="rebecca">Rebecca</string>
+    <string name="the_maltese_falcon">The Maltese Falcon</string>
+    <string name="the_day_of_the_jackal">The Day of the Jackal</string>
+    <string name="big_little_lies">Big Little Lies</string>
+    <string name="in_the_woods">In the Woods</string>
+    <string name="the_silence_of_lambs">The Silence of the Lambs</string>
+    <string name="the_hound_baskervilles">The Hound of the Baskervilles</string>
+    <string name="the_moonstone">The Moonstone</string>
+    <string name="the_girl_on_train">The Girl on the Train</string>
+
+
+    <string name="author_agatha">Agatha Christie</string>
+    <string name="author_raymond">Raymond Chandler</string>
+    <string name="gillian_flynn">Gillian Flynn</string>
+    <string name="james_m_cain">James M. Cain</string>
+    <string name="author_truman_capote">Truman Capote</string>
+    <string name="author_wilkie_collins">Wilkie Collins</string>
+    <string name="author_robert_traver">Robert Traver</string>
+    <string name="author_john_carre">John le Carré</string>
+    <string name="author_dan_brown">Dan Brown</string>
+    <string name="author_stieg_larsson">Stieg Larsson</string>
+    <string name="author_josephine_tey">Josephine Tey</string>
+    <string name="author_daphne_du_maurier">Daphne du Maurier</string>
+    <string name="author_dashiell_hammett">Dashiell Hammett</string>
+    <string name="author_frederick_forsyth">Frederick Forsyth</string>
+    <string name="author_liane_moriarty">Liane Moriarty</string>
+    <string name="author_tana_french">Tana French</string>
+    <string name="author_thomas_harris">Thomas Harris</string>
+    <string name="author_arthur_conan_doyle">Sir Arthur Conan Doyle</string>
+<!--    <string name="author_wilkie_collins">Wilkie Collins</string>-->
+    <string name="author_paula_hawkins">Paula Hawkins</string>
+
+    <string name="movie_master">Master</string>
+    <string name="master_imdb">7.9/10</string>
+    <string name="master_director">Lokesh Kanagaraj</string>
+    <string name="master_actor1">Vijay</string>
+    <string name="master_actor2">Malavika Mohanan</string>
+    <string name="master_actor3">Vijay Sethupati </string>
+    <string name="master_actor4">Arjun Das</string>
+    <string name="master_actor5">Andrea Jeremiah</string>
+
+
+
+</resources>
