@@ -103,8 +103,10 @@ fun CountryListItem(countryText: String, onItemClick: (String) -> Unit) {
 @Composable
 fun CountryList(navController: NavController, state: MutableState<TextFieldValue>) {
     val countries = getListOfCountries()
-    var filteredCountries: ArrayList<String>
-    LazyColumn(modifier = Modifier.fillMaxWidth()) {
+    var filteredCountries = ArrayList<String>()
+    LazyColumn(
+        modifier = Modifier.fillMaxWidth()
+    ) {
         val searchedText = state.value.text
         filteredCountries = if (searchedText.isEmpty()) {
             countries
@@ -119,13 +121,19 @@ fun CountryList(navController: NavController, state: MutableState<TextFieldValue
             }
             resultList
         }
-        items(filteredCountries) { filteredCountry ->
+        items(filteredCountries){ filteredCountry ->
             CountryListItem(
                 countryText = filteredCountry,
                 onItemClick = { selectedCountry ->
-                    /* Add code later */
+                    navController.navigate("details/$selectedCountry") {
+                        popUpTo("main"){
+                            saveState = true
+                        }
+                        launchSingleTop = true
+                        restoreState = true
+                    }
                 }
-            )
+                )
         }
     }
 }
